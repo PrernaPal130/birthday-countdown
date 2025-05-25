@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/birthday-countdown/static/css/main.3f9351b2.css",
+    "main.js": "/birthday-countdown/static/js/main.55442276.js",
+    "static/js/453.522d5f78.chunk.js": "/birthday-countdown/static/js/453.522d5f78.chunk.js",
+    "index.html": "/birthday-countdown/index.html",
+    "main.3f9351b2.css.map": "/birthday-countdown/static/css/main.3f9351b2.css.map",
+    "main.55442276.js.map": "/birthday-countdown/static/js/main.55442276.js.map",
+    "453.522d5f78.chunk.js.map": "/birthday-countdown/static/js/453.522d5f78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f9351b2.css",
+    "static/js/main.55442276.js"
+  ]
+}
