@@ -4,7 +4,7 @@ import confetti from "canvas-confetti";
 
 const BirthdayCountdown = () => {
   const calculateTimeLeft = () => {
-    const birthdaythisyear = new Date("2025-05-25T21:27:00");
+    const birthdaythisyear = new Date("2025-05-26T00:00:00");
     const now = new Date();
     const diff = birthdaythisyear - now;
     const diff2 = now - birthdaythisyear;
@@ -72,9 +72,7 @@ const BirthdayCountdown = () => {
                 <Agebox label="Minutes" value={timeLeft.minutes2} />
                 <Agebox label="Seconds" value={timeLeft.seconds2} />
               </div>
-            </div>
-
-            <div className="special-message-container">
+              <div className="special-message-container">
               <button
                 className="special-message-button"
                 onClick={() => setShowMessage(true)}
@@ -84,9 +82,14 @@ const BirthdayCountdown = () => {
               {showMessage && (
                 <div className="special-message-text">
                   🎁 You are not just a brother, you're my biggest blessing.
-                  Thank you for always being there. Happy Birthday! ❤️
+                  Thank you for always being there. Happy Birthday!
+                  Sometimes I wish we could go back in time spend all our
+                  celebrations together again.Spend everyday together and pay
+                  togher to fight for that one pillow again.
+                  Love you a lot  ❤️
                 </div>
               )}
+            </div>
             </div>
           </div>
         </>
