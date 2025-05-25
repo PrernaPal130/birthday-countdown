@@ -272,8 +272,9 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .special-message-container {
-  margin-top: 50%;
   text-align: center;
+  text-align: center;
+  margin-top: 35%;
 }
 
 .special-message-button {
