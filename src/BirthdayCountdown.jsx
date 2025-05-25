@@ -84,8 +84,8 @@ const BirthdayCountdown = () => {
                     🎁 You are not just a brother, you're my biggest blessing.
                     Thank you for always being there. Happy Birthday! Sometimes
                     I wish we could go back in time spend all our celebrations
-                    together again.Spend everyday together and pay togher to
-                    fight for that one pillow again. Love you a lot ❤️
+                    together again.Spend everyday together and fight for that
+                    one pillow again. Love you a lot ❤️
                   </div>
                 )}
               </div>
