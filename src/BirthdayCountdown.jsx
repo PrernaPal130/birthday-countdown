@@ -86,7 +86,7 @@ const BirthdayCountdown = () => {
                   Sometimes I wish we could go back in time spend all our
                   celebrations together again.Spend everyday together and pay
                   togher to fight for that one pillow again.
-                  Love you a lot  ❤️
+                  Love you a lot ❤️
                 </div>
               )}
             </div>
