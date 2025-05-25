@@ -73,23 +73,22 @@ const BirthdayCountdown = () => {
                 <Agebox label="Seconds" value={timeLeft.seconds2} />
               </div>
               <div className="special-message-container">
-              <button
-                className="special-message-button"
-                onClick={() => setShowMessage(true)}
-              >
-                Special Message
-              </button>
-              {showMessage && (
-                <div className="special-message-text">
-                  🎁 You are not just a brother, you're my biggest blessing.
-                  Thank you for always being there. Happy Birthday!
-                  Sometimes I wish we could go back in time spend all our
-                  celebrations together again.Spend everyday together and pay
-                  togher to fight for that one pillow again.
-                  Love you a lot ❤️
-                </div>
-              )}
-            </div>
+                <button
+                  className="special-message-button"
+                  onClick={() => setShowMessage(true)}
+                >
+                  Special Message
+                </button>
+                {showMessage && (
+                  <div className="special-message-text">
+                    🎁 You are not just a brother, you're my biggest blessing.
+                    Thank you for always being there. Happy Birthday! Sometimes
+                    I wish we could go back in time spend all our celebrations
+                    together again.Spend everyday together and pay togher to
+                    fight for that one pillow again. Love you a lot ❤️
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </>
@@ -127,9 +126,7 @@ const Cake = () => (
     <div className="layer layer-bottom"></div>
     <div className="layer layer-middle"></div>
     <div className="layer layer-top"></div>
-    <div className="icing">
-      <p>Himanshu</p>
-    </div>
+    <div className="icing"></div>
     <div className="drip drip1"></div>
     <div className="drip drip2"></div>
     <div className="drip drip3"></div>
